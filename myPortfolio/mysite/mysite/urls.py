@@ -24,4 +24,5 @@ urlpatterns = [
     path('', views.home, name="home"),           # Url for home page
     path('about/', views.about, name="about"),   # Url for about page
     path('contact/', views.contact, name="contact"),   # Url for contact page
+    path('poem/', views.poem, name="poem"),   # Url for poem page
 ]
